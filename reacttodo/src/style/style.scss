@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active_link{
+ @apply bg-white text-black transition-all delay-200 rounded-md px-4 py-3;
+    }
+
+  .default_link  {
+        @apply text-gray-600 text-white hover:bg-gray-200  transition-all delay-200 rounded-md px-4 py-3
+    }
+}
